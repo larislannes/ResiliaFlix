@@ -78,6 +78,7 @@ main {
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  border-radius: 45px;
 }
 .footer {
     position: fixed;
@@ -91,7 +92,50 @@ main {
  }
 
 h2 {
-color: rgb(211, 4, 4); 
+color: rgba(211, 4, 4, 0.781); 
 font-family: Bebas Neue, cursive;
-font-size: 40px;
+font-size: 45px;
  }
+
+.infos { 
+  margin: 90px;
+  background-color: #000000;
+  padding: 5px;
+  text-align: center;
+  opacity: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 45px;
+ }
+
+h3 { 
+color: white;  
+font-family: Bebas Neue, cursive;
+font-size: 30px;
+}
+
+  .cadastro {
+    box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    background-color:#a73f2d;
+    border:1px solid #241d13;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:9px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #7a2a1d;
+  }
+  .cadastro:hover {
+    background-color:#b34332;
+  }
+  .cadastro:active {
+    position:relative;
+    top:1px;
+  }
+
+
