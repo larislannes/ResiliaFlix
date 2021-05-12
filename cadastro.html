@@ -29,22 +29,24 @@
                 <br>
                 <h2>Endereço</h2>
                 <label for="cep">CEP</label>
-                <input type="text" name="cep" id="cep">
+                <input type="text" name="cep" id="cep" required>
                 <br>
                 <label for="logradouro">Logradouro</label>
-                <input name="logradouro" type="text" id="logradouro">
+                <input name="logradouro" type="text" id="logradouro" required>
                 <br>
                 <label for="numero">Número</label>
                 <input name="numero" type="number" id="numero">
+                <label for="semNumero"></label>
+                <input type="checkbox" name="semNumero" id="semNumero">sem número
                 <br>
                 <label for="complemento">Complemento</label>
-                <input type="text" name="complemento" id="complemento">
+                <input type="text" name="complemento" id="complemento" required>
                 <br>
                 <label for="cidade" id="cidade">Cidade</label>
-                <input name="cidade" type="text" id="cidade">
+                <input name="cidade" type="text" id="cidade" required>
                 <br>
                 <label for="estado">Estado</label>
-                <input name="estado" type="text" name="estado">
+                <input name="estado" type="text" name="estado" required>
                 <br>
                 <button type="post" name="enviar">Enviar</button>
                 <button type="reset" name="limpar">Limpar</button>
