@@ -33,3 +33,7 @@ input, select{
     width: 100px;
     text-align: center;
 }
+
+#estado {
+    width: 50px;
+}
