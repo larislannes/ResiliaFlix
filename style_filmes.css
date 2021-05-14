@@ -1,0 +1,7 @@
+.carousel {
+    background-color: black;
+    overflow: hidden ;
+}
+.carousel img{
+width: 100%;
+}
