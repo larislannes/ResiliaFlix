@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="filmes.css" />
+    <title>Buscador</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">ResiliaFlix</a>
+      <div class="header-right">
+        <a class="active" href="#home">Home</a>
+        <a href="#filmes">Em cartaz</a>
+        <a href="#Login">Login</a>
+        <a href="#Senha">Esqueci minha senha</a>
+      </div>
+    </div>
+    <div class="buscador">
+      <form action="" method="submit" class="pesquisa">
+        <input
+          type="search"
+          name="buscador"
+          value=""
+          placeholder="O que vamos ver hoje?"
+          id="buscar"
+          onkeyup="pesquisa()"/>
+          
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <div class="filmes">
+      <ul id="disponiveis">
+        <li>
+          <a href="#">Soldado Ryan</a>
+        </li>
+        <li>
+          <a href="#">Rambo</a>
+        </li>
+        <li>
+          <a href="#">Vingadores</a>
+        </li>
+        <li>
+          <a href="#">O homem que copiava</a>
+        </li>
+        <li>
+          <a href="#">Legalmente Loira</a>
+        </li>
+        <li>
+          <a href="#">Jurassic Park</a>
+        </li>
+        <li>
+          <a href="#">O pianista</a>
+        </li>
+        <li>
+          <a href="#">Imperio do Sol</a>
+        </li>
+        <li>
+          <a href="#">13 Horas</a>
+        </li>
+        <li>
+          <a href="#"> Alladin</a>
+        </li>
+        <li>
+          <a href="#"> Speed Racer</a>
+        </li>
+        <li>
+          <a href="#"> Circulo de Fogo</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
