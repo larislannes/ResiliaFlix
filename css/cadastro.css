@@ -1,34 +1,28 @@
-h1 {
-    font-family: "Bebas Neue", cursive;
-    font-size: 85px;
-    color: hsl(0, 100%, 50%);
-  }
-  
-body {
-  background-color: black;
-  background-image: url(../img/salaCinemaUnsplash.jpg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-size: cover;
-  margin: 0;
+body{
+    background-color: black;
+    background-image: url(../imagens/salaCinemaUnsplash.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    margin: 0;
 }
 
 input, select{
-  outline: 0;
-  margin: 0 0 10px 0;
-  font-family: 'Nunito';
-  padding: 6px;
-  font-size: 20px;
-  border-width: 0px;
-  border-color: #CCCCCC;
-  background-color: #FFFFFF;
-  color: #000000;
-  border-style: solid;
-  border-radius: 7px;
-  box-shadow: 0px 0px 9px rgba(66,66,66,.75);
-  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
-  font-family: Bebas Neue, cursive;
-  text-align: center;
+    outline: 0;
+    margin: 0 0 10px 0;
+    font-family: 'Nunito';
+    padding: 6px;
+    font-size: 20px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 7px;
+    box-shadow: 0px 0px 9px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    font-family: Bebas Neue, cursive;
+    text-align: center;
 }
 
 button {
@@ -45,7 +39,7 @@ button {
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #854629;
-    margin: 10px 0 100px 0;
+    margin: 10px;
 }
 button:hover {
 	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
@@ -56,24 +50,84 @@ button:active {
 	top:1px;
 }
 
-#divContainer{
-  display: flex;
-  justify-content: center;
+#titulo{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#divFormulario {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Nunito';
+}
+
+#img{
+    width: 75%;
+}
+
+#nome{
+  text-align: center;
+  width: 400px;
+}
+
+#email{
+  text-align: center;
+  width: 400px;
+}
+
+#senha{
+  text-align: center;
+  width: 400px;
+}
+
+#confirmaSenha{
+  text-align: center;
+  width: 400px;
+}
+
+#rg{
   text-align: center;
 }
 
-#divCenter a {
-  text-decoration: none;
-  color: #d3d3d3;
+#cep{
+    width: 100px;
+    text-align: center;
 }
 
-#divCenter a {
-  text-decoration: none;
+#numero{
+  width: 70px;
+  text-align: center;
 }
 
-#login{
+#logradouro{
+  text-align: center;
   width: 400px;
 }
+
+#complemento {
+  text-align: center;
+  width: 400px;
+}
+
+#cidade{
+  text-align: center;
+  width: 400px;
+}
+
+#estado {
+    width: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 85px;
+    color: hsl(0, 100%, 50%);
+  }
 
 .header {
   overflow: hidden;
@@ -127,7 +181,7 @@ main {
   font-family: Bebas Neue, cursive;
   color: rgb(189, 3, 3);
   font-size: 50pt;
-  display: flex;
+  display: flex;;
 }
 
 .container {
@@ -198,11 +252,6 @@ font-size: 30px;
 .cadastro:active {
   position:relative;
   top:1px;
-}
-
-.paragrafo{
-  font-family: Nunito, cursive;
-  color: #d3d3d3;
 }
 
 @font-face {

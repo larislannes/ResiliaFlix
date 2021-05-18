@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class="header">
-        <a href="#default" class="logo">ResiliaFlix</a>
+        <a href="../index.html" class="logo">ResiliaFlix</a>
         <div class="header-right">
-          <a href="#home">Home</a>
-          <a href="#filmes">Em cartaz</a>
+          <a href="../index.html">Home</a>
+          <a href="./filmes.html">Em cartaz</a>
           <a href="./login.html">Login</a>
-          <a class="active" href="#Senha">Esqueci minha senha</a>
+          <a class="active" href="./esqueci_senha.html">Esqueci minha senha</a>
         </div>
     </div>
     <div class="container">
@@ -27,7 +27,7 @@
                 <br>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
                 <br>
-                <button type="submit" name="button_enviar">Enviar</button>
+                <button type="submit" name="button_enviar" id="botaoEnviarEsqueciSenha" onclick="validaEmail()">Enviar</button>
             </form>
         </div>
     </div>
@@ -37,6 +37,6 @@
         Matheus.
         </footer>
       </div>
-<script src="../Control/esqueci_senha.js"></script>
+<script src="../js/valida_email.js" type="text/javascript"></script>
 </body>
 </html>
