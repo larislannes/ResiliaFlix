@@ -54,7 +54,10 @@ body {
     color: black;
   }
   
-  
+  .header a.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
   
   .header-right {
     float: right;
@@ -110,21 +113,4 @@ button:active {
     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
     font-family: Bebas Neue, cursive;
     text-align: center;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  text-align: center;
-  font-family: Nunito;
-}
-
-.filmes { 
-display: inline-block;
-flex-direction: row;
-
 }
