@@ -45,21 +45,18 @@
           <label for="rg"></label>
           <input type="text" id="rg" name="rg" placeholder="RG">
           <br>
-          <form method="get" action=".">
-            <label>
+            <label for="cep"></label>
               <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-                onblur="pesquisacep(this.value);" placeholder="CEP" /></label><br />
-            <label>
-              <input name="rua" type="text" id="rua" size="60" placeholder="RUA" /></label><br />
-            <label>
-              <input name="bairro" type="text" id="bairro" size="40" placeholder="Bairro" /></label><br />
-            <label>
-              <input name="cidade" type="text" id="cidade" size="40" placeholder="Cidade" /></label><br />
-            <label>
-              <input name="uf" type="text" id="uf" size="2" placeholder="Estado" /></label><br />
-            <label>
-              <input name="ibge" type="text" id="ibge" size="8" placeholder="IBGE" /></label><br />
-          </form>
+                onblur="pesquisacep(this.value);" placeholder="CEP" /><br />
+            <label for="logradouro"></label>
+              <input name="logradouro" type="text" id="logradouro" size="60" placeholder="Logradouro" /><br />
+            <label for="bairro"></label>
+              <input name="bairro" type="text" id="bairro" size="40" placeholder="Bairro" /><br />
+            <label for="cidade"></label>
+              <input name="cidade" type="text" id="cidade" size="40" placeholder="Cidade" /><br />
+            <label for="uf"></label>
+              <input name="uf" type="text" id="uf" size="2" placeholder="UF" /><br />
+
          <a href="./filmes.html"><button type="submit" name="enviar" id="botaoEnviarCadastro" onclick="validaEmail()">Enviar</button></a>
           <button type="reset" name="limpar" id="botaoLimparCadastro">Limpar</button>
         </form>
@@ -74,7 +71,7 @@
       </div>
     </div>
     <script type="text/javascript" src="../js/valida_email.js"></script>
-    <script src="../js/cadastro.js"></script>
+    <script src="../js/validaCep.js"></script>
 </body>
 
 </html>
