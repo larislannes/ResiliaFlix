@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/filmes.css" />
-    <title>Catálogo de filmes</title>
-    <script type="text/javascript" src="/ResiliaFlix-andre/Controller/filmes.js"></script>
-  </head>
 
-  <body>
-    <div class="header">
-      <a href="../index.html" class="logo">ResiliaFlix</a>
-      <div class="header-right">
-        <a class="active" href="../index.html">Home</a>
-        <a href="./filmes.html">Em cartaz</a>
-        <a href="./login.html">Login</a>
-        <a href="./esqueci_senha.html">Esqueci minha senha</a>
-        <a href="./contato.html">Contato</a>
-      </div>
-      </div>
-    </div>
-    <div class="buscador">
-      <form action="" method="submit" class="pesquisa">
-        <input
-          type="search"
-          name="buscador"
-          value=""
-          placeholder="O que vamos ver hoje?"
-          id="buscar"
-          onkeyup="pesquisa()"/>
-          
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/filmes.css" />
+  <title>Catálogo de filmes</title>
+  <script type="text/javascript" src="/ResiliaFlix-andre/Controller/filmes.js"></script>
+</head>
 
-    <div class="filmes">
-      <ul id="disponiveis">
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/bastasdos_inglorios.html" > <img src="/ResiliaFlix-andre/View/img_filmes/bastardos_1.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/codigoVince.html"> <img src="/ResiliaFlix-andre/View/img_filmes/codigo_vinci_2.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/coringa.html"><img src="/ResiliaFlix-andre/View/img_filmes/coringa_2.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/fragmentado.html"> <img src="/ResiliaFlix-andre/View/img_filmes/fragmentado_2.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/mulan.html"> <img src="/ResiliaFlix-andre/View/img_filmes/mulan_3.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/o_impossivel.html"><img src="/ResiliaFlix-andre/View/img_filmes/o_impossivel_3.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/o_rei_leao.html"><img src="/ResiliaFlix-andre/View/img_filmes/rei_leao_2.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/parasita.html"><img src="/ResiliaFlix-andre/View/img_filmes/parasita_3.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/simplesmente_amor.html"><img src="/ResiliaFlix-andre/View/img_filmes/simplesmente_amor_1.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/soldado_ryan.html"><img src="/ResiliaFlix-andre/View/img_filmes/soldado_ryan_1.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/soul.html"><img src="/ResiliaFlix-andre/View/img_filmes/soul_1.jpg" alt=""></a>
-        </li>
-        <li>
-          <a href="/ResiliaFlix-andre/Model/Catalogo/walter_mitty.html"><img src="/ResiliaFlix-andre/View/img_filmes/walter_mitty_1.jpg" alt=""></a>
-        </li>
-      </ul>
+<body>
+  <div class="header">
+    <a href="../index.html" class="logo">ResiliaFlix</a>
+    <div class="header-right">
+      <a class="active" href="../index.html">Home</a>
+      <a href="./filmes.html">Em cartaz</a>
+      <a href="./login.html">Login</a>
+      <a href="./esqueci_senha.html">Esqueci minha senha</a>
+      <a href="./contato.html">Contato</a>
     </div>
-    <div class="footer">
-      Todos os direitos reservados. Feito com s2 por André, Érika, Larissa e
-      Matheus.
-    </div>
-  </body>
+  </div>
+  </div>
+  <div class="buscador">
+    <form action="" method="submit" class="pesquisa">
+      <input type="text" name="buscador" value="" placeholder="O que vamos ver hoje?" id="buscar" />
+
+      <button type="button" onclick="pesquisa()">Enviar</button>
+    </form>
+
+  </div>
+
+  <div class="filmes">
+    <ul id="disponiveis">
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/bastasdos_inglorios.html"> <img src="../imagens/cartaz_bastardo.jpg"
+            alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/codigoVince.html"> <img src="../imagens/cartaz_codigo_da_vince.jpg"
+            alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/coringa.html"><img src="../imagens/cartaz_coringa.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/fragmentado.html"> <img src="../imagens/cartaz_fragmentado.jpg"
+            alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/mulan.html"> <img src="../imagens/cartaz_mullan.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/o_impossivel.html"><img src="../imagens/cartaz_o_impossivel.jpg"
+            alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/o_rei_leao.html"><img src="../imagens/cartaz_o_rei_leao.jpg"
+            alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/parasita.html"><img src="../imagens/cartaz_parasita.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/simplesmente_amor.html"><img
+            src="../imagens/cartaz_simplesmente_amor.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/soldado_ryan.html"><img
+            src="../imagens/cartaz_o_resgate_do_soldado_ryan.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/soul.html"><img src="../imagens/cartaz_soul.jpg" alt=""></a>
+      </li>
+      <li>
+        <a href="../ResiliaFlix-andre/Model/Catalogo/walter_mitty.html"><img src="../imagens/cartaz_walter_mitty.jpg"
+            alt=""></a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer">
+    Todos os direitos reservados. Feito com s2 por André, Érika, Larissa e
+    Matheus.
+  </div>
+  <script type="text/javascript" src="../js/pesquisa.js"></script>
+</body>
+
 </html>
