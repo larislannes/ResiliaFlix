@@ -1,3 +1,6 @@
+@import url(/fontes/BebasNeue-Regular.ttf);
+@import url(/fontes/Nunito-Regular.ttf);
+
 h1 {
   font-family: "Bebas Neue", cursive;
   font-size: 85px;
@@ -6,7 +9,7 @@ h1 {
 
 body {
   background-color: black;
-  background-image: url(/imagens/home.jpg);
+  background-image: url(home.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
